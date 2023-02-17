@@ -1,0 +1,149 @@
+<html>
+<head>
+<title>login page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <script>
+function valid(){
+var el=document.getElementById("em").value;
+var pwd=document.getElementById("pd").value;
+
+if(el == "admin@gmail.com" && pwd == "123456"){
+window.location.href = "indegene1.html"
+}
+
+/*if(el==""){
+document.getElementById("email").innerHTML="Enter valid email address";
+}
+else{
+ window.location.href = "indegene1.html"
+}
+}
+
+if(pwd==""){
+document.getElementById("pwd").innerHTML="Enter valid password";
+}else{
+ window.location.href = "indegene1.html"
+}*/
+}
+</script>
+
+<style>
+body{
+background-image:url("img/bg.jpg");
+
+}
+
+.jumbotron{
+
+background-color:black;
+color:white;
+height:450px;
+margin-top:25px;
+background: rgba(4, 0, 0,0.5)
+}
+
+.jumbotron:hover{
+border:3px solid white;
+}
+
+h2{
+letter-spacing:5px;
+font-family:glegoo;
+}
+
+input:hover{
+border:2px solid red;
+}
+
+button{
+
+width:150px;
+font-size:100px;
+}
+
+.btn{
+font-size:20px;
+float:right;
+
+}
+
+header{
+color:white;
+text-align:center;
+letter-spacing:10px;
+margin-top:30px
+}
+
+a{
+font-size:20px;
+font-family:glegoo;
+
+}
+
+li{
+text-align:center;
+}
+
+span{
+margin-top:5px;
+letter-spacing:3px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<header>
+<h1>INDEGENE</h1>
+<p>your best choise is here</p>
+</header>
+</div>
+</div>
+</div>
+
+
+<div class="container" id="login">
+
+		<div class="row">
+		<div class="col-md-12 col-sm-12" id="col1"> 
+		<div class="jumbotron" >
+		<form name="myform">
+		<h2>Login</h2>
+		<hr style="color:black">
+    <div class="form-group">
+      <input type="email" class="form-control"  placeholder="Enter your email" id="em" name="email" required>
+	  <span id="email" style="color:red;"></span>
+    </div>
+	<br>
+    <div class="form-group">
+      <input type="password" class="form-control"  placeholder="Enter your password" id="pd" name="pswd" required>
+	 <span id="pwd" style="color:red;"></span>
+    </div><br>
+	
+    <div class="checkbox">
+      <label><input type="checkbox" name="remember"> Remember me</label>
+    </div><br>
+	
+    <button  type="button" class="btn btn-primary" onclick="valid()">Submit</button>
+  </form>
+		</div>
+		</div>
+		
+//script for login form
+
+		
+</div>
+</div>
+<div>
+<ul>
+
+</ul>
+</div>
+</body>

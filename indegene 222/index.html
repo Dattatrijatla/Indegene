@@ -1,0 +1,489 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <title>Bootstrap Example</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <style>
+
+#jmb1{
+
+  background-color: black;
+}
+.jmb2{
+margin-top: -15px;
+padding-top: 10%;
+
+padding-bottom: 10%;
+background-color:  #c4bfbf;
+}
+.img-jmb{
+
+  background-image: url("img/bg_2.png");
+  background-size: cover;
+}
+
+.img-jmb{
+
+  padding-top: 15%;
+  padding-bottom: 15%;
+  margin-top: -30px;
+}
+     
+.text1{
+
+  margin-left: 20px;
+}
+
+.img1{
+  padding:15px;
+}
+
+
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+   
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: cornflowerblue;}
+
+.slideshow-container{
+
+  background-image: url("img/asphalt18676671920.png");
+  padding-top: 10%;
+  
+  margin-top: 40px;
+  background-repeat: no-repeat, repeat;
+}
+
+.gray{
+
+  background-color: rgb(245, 237, 237);
+}
+
+.navbar {
+  
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  
+  width: 100%;
+  
+ 
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+    </style>
+    </head>
+    <body>
+     
+      
+      <div class="navbar" style="padding: 10px;">
+       <img src="img/logo.png" alt="" style="float: left;">
+        <div class="dropdown" >
+          <button class="dropbtn" style="float: right;">MENU 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="indegene.html">Home</a>
+            <a href="aboutus.html">About</a>
+            <a href="login.html">Login</a>
+			
+          </div>
+        </div> 
+      </div>
+
+
+    <div class="jumbotron text-center jmb2">
+      <h1>Enterprise Marketing and Customer Experience </h1><br>
+      <p>LAVERAGE DATA TO DRIVE PERSONALIZATION AT SCALE</p> <br>
+      <a href="#" class="btn btn-primary btn-default">Default text here</a>
+      <a href="#" class="btn btn-primary btn-default">Default text here</a>
+    </div>
+      
+    <div class="jumbotron img-jmb" >
+         
+       <div class="container-fluid text-left text1" >
+         <div class="row">
+           <div class="col-md-4 "></div>
+            <h2><b>THE DIGITAL SAVVY PHARMA MARKETER 2020</b></h2>
+            <p>"MUST HAVE TOOL FOR EVERY PHARMA MARKET"</p>
+            <button class="btn btn-danger">Download</button>
+          </div>
+        </div>
+      </div>
+            
+    </div>
+  <!-- grid-->
+
+ 
+    <div class="text-center ">
+      <h3><b>COMPANY SERVICE</b></h3>
+    </div>
+
+<div class="container " style="margin-top: 60px;">
+  <div class="row">
+    <div class="col-md-6 ">
+      <div class="media">
+        
+        <div class="media-body">
+          <h4 class="media-heading text-right"><b>Customer Experience</b></h4>
+          <p class="text-right">A must have tool for pharma marketers to gain insight into the latest channel prefernce,marketing budget allocations,technology utilizations</p>
+        </div>
+        <div class="media-right">
+          <img src="img/Ellipse3.png" class="media-object img1" style="width:100px">
+        </div>
+      </div>
+        
+    </div>
+
+    <div class="col-md-6 ">
+      <div class="media">
+        <div class="media-left">
+          <img src="img/Ellipse4.png" class="media-object img1" style="width:100px">
+        </div>
+        <div class="media-body">
+          <h4 class="media-heading"><b>Customer Experience</b></h4>
+          <p>A must have tool for pharma marketers to gain insight into the latest channel prefernce,marketing budget allocations,technology utilizations</p>
+        </div>
+      </div>
+        
+    </div>
+</div>
+
+
+
+
+
+  <div class="row">
+    <div class="col-md-6 ">
+      <div class="media">
+        
+        <div class="media-body">
+          <h4 class="media-heading text-right"><b>Customer Experience</b></h4>
+          <p class="text-right">A must have tool for pharma marketers to gain insight into the latest channel prefernce,marketing budget allocations,technology utilizations</p>
+        </div>
+        <div class="media-right">
+          <img src="img/Ellipse5.png" class="media-object img1" style="width:100px">
+        </div>
+      </div>
+        
+    </div>
+
+    <div class="col-md-6 ">
+      <div class="media">
+        <div class="media-left">
+          <img src="img/Ellipse6.png" class="media-object img1" style="width:100px">
+        </div>
+        <div class="media-body">
+          <h4 class="media-heading"><b>Customer Experience</b></h4>
+          <p>A must have tool for pharma marketers to gain insight into the latest channel prefernce,marketing budget allocations,technology utilizations</p>
+        </div>
+      </div>
+        
+    </div>
+</div>
+
+
+
+
+<div class="row">
+  <div class="col-md-6 ">
+    <div class="media">
+      
+      <div class="media-body">
+        <h4 class="media-heading text-right"><b>Customer Experience</b></h4>
+        <p class="text-right">A must have tool for pharma marketers to gain insight into the latest channel prefernce,marketing budget allocations,technology utilizations</p>
+      </div>
+      <div class="media-right">
+        <img src="img/Ellipse2.png" class="media-object img1" style="width:100px">
+      </div>
+    </div>
+      
+  </div>
+
+  <div class="col-md-6 ">
+    <div class="media">
+      <div class="media-left">
+        <img src="img/Ellipse7.png" class="media-object img1" style="width:100px">
+      </div>
+      <div class="media-body">
+        <h4 class="media-heading"><b>Customer Experience</b></h4>
+        <p>A must have tool for pharma marketers to gain insight into the latest channel prefernce,marketing budget allocations,technology utilizations</p>
+      </div>
+    </div>
+      
+  </div>
+</div>
+</div>
+
+<div class="slideshow-container">
+
+  <h2 style="color: blanchedalmond; text-align:center ; letter-spacing: 8px;">INSPIRATIONAL TESTIMONY</h2>
+  <div class="mySlides">
+    <img src="img/Layer18.png" alt="">
+    <h4 style="color:whitesmoke;"><b>PRESIDENT</b></h4>
+    <p class="author" style="color:whitesmoke;"><i>A company, abbreviated as co., is a legal entity representing an </i></P>
+     
+  </div>
+  
+  <div class="mySlides">
+    <img src="img/Layer18.png" alt="">
+    <h4 style="color:whitesmoke;"><b>CEO</b></h4>
+    <p class="author" style="color:whitesmoke;"><i>I love you the more in that I believe you had liked me for my own sake and for nothing else</i></p>
+  </div>
+  
+  <div class="mySlides">
+    <img src="img/Layer18.png" alt="">
+    <h4 style="color:whitesmoke;"><b>MANAGER</b></h4>
+    <p class="author" style="color:whitesmoke;"><i>A company, abbreviated as co., is a legal entity representing and I love you the more in that I believe you had liked me for my own sake and for nothing else</i></p>
+  </div>
+  
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+  
+  
+  
+  <div class="dot-container">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+  </div>
+  </div>
+  <script>
+  var slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+  }
+  </script>
+<div class="gray">
+<div class="text-center " style="padding:30px;">
+  <h3><b>RECENT BLOG</b></h3>
+</div>
+    .
+<div class="container" style="padding:50px;">
+  <div class="row">
+
+<div class="col-md-4">
+  <div class="card" >
+    <img src="img/thumbnail.png" style="width:100%">
+    
+    <div class="card-body" style="background-color: rgb(245, 243, 243);">
+      <div class="media">
+        <div class="media-left">
+          <img src="img/Layer22_1.png" class="media-object" >
+        </div>
+        <div class="media-body">
+          <h3 class="media-heading " style="padding:25px; "><b>Press Release</b></h3>
+          <p style="color: #888 ; font-size: medium;  padding:5px">A must have tool for pharma marketers to gain insight into the latest channel prefernce,marketing budget allocations,technology utilizations</p>
+        </div>
+      </div>
+    
+  </div>  
+  </div>
+</div>
+
+
+
+
+<div class="col-md-4">
+  <div class="card" >
+    <img src="img/thumbnail.png" style="width:100%">
+    
+    <div class="card-body" style="background-color: rgb(245, 243, 243);">
+      <div class="media">
+        <div class="media-left">
+          <img src="img/Layer22_1.png" class="media-object" >
+        </div>
+        <div class="media-body">
+          <h3 class="media-heading " style="padding:25px; "><b>Press Release</b></h3>
+          <p style="color: #888 ; font-size: medium;  padding:5px">A must have tool for pharma marketers to gain insight into the latest channel prefernce,marketing budget allocations,technology utilizations</p>
+        </div>
+      </div>
+    
+  </div>  
+  </div>
+</div>
+
+<div class="col-md-4">
+  <div class="card" >
+    <img src="img/thumbnail.png" style="width:100%">
+    
+    <div class="card-body" style="background-color: rgb(245, 243, 243);">
+      <div class="media">
+        <div class="media-left">
+          <img src="img/Layer22_1.png" class="media-object" >
+        </div>
+        <div class="media-body">
+          <h3 class="media-heading " style="padding:25px; "><b>Press Release</b></h3>
+          <p style="color: #888 ; font-size: medium;  padding:5px">A must have tool for pharma marketers to gain insight into the latest channel prefernce,marketing budget allocations,technology utilizations</p>
+        </div>
+      </div>
+    
+  </div>  
+  </div>
+</div>
+
+
+  <!--footer-->
+
+
+   </div></div> 
+   
+   <div class="jumbotron text-center" id="jmb1" style="padding: 50px;">
+    <div class="row">
+    
+       
+        
+    <div class="col-md-12"  >  
+      <h2 style="color: blanchedalmond;">NEWSETLER</h2><br>
+      <form >
+        <input type="search" placeholder="Search.." name="search" style="width: ; padding: 10px; border-radius: 2px;">
+        <button class="btn btn-primary" type="submit" style="padding: 10px;">SUBSCRIBE</button>
+      </form>       
+    </div> 
+                
+          
+        </div>
+        </div>
+       
+    </body>
+    </html>
+    
+
