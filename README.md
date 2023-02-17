@@ -1,1 +1,6 @@
-# Projects
+# Indigine
+
+Project Description
+Health is really important to any human being in this world. Health is necessary to excel in life so that you do not fail. It's one of the most significant reasons people are neglecting now. One will only have a bright future ahead of good health. Android devices are booming in the industry due to the availability of internet services. And it's a smart thing to enable the medical sector to make use of online services quickly. The use of smart health consultancy is of great benefit. The people on the application image are the government-based health system, medical agencies, people, etc.
+The health sectors can register themselves through this application and register their information. This can educate the people about the facilities available in the particular health care sector. Health sectors can register themselves and register their information through this program. This will tell people of the services available in the specific health care market.
+The supply of specialized drugs is also available. This will allow the public to get the drug from the right place at the right time without interruption. Transparency of knowledge is readily accessible via the Smart Health Consultancy android program
